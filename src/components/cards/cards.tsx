@@ -9,7 +9,6 @@ interface MediaCardsProps {
 }
 
 export default function MediaCards({ items, onSelect }: MediaCardsProps) {
-  console.log(items, 'console')
   return (
     <Grid container spacing={4}>
       {items.map((item: any, index) => (
