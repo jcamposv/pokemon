@@ -9,7 +9,6 @@ import { useForm } from "react-hook-form";
 interface FormProps {
   name: string;
   email: string;
-  page: number;
 }
 
 type Inputs = {
