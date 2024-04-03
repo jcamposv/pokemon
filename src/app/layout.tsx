@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"]});
 export const metadata: Metadata = {
   title: "pokemon App",
   description: "Choose your pokemon",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
